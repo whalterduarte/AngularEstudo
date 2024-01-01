@@ -1,0 +1,7 @@
+<div class="class">
+  <div *ngIf="canShow">Estamos mostrando pq e true</div>
+  <h2 *ngIf="name === 'whalter'; else nameNotFound">Eu me chama {{ name }}</h2>
+  <ng-template #nameNotFound>
+    <p>Eu não me chamo whalter</p>
+  </ng-template>
+</div>

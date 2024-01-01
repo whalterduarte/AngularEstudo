@@ -1,3 +1,10 @@
 h2{
   color: red;
 }
+.name{
+  background-color: black;
+  text-align: center;
+}
+#hobbies{
+  background-color: aqua;
+}

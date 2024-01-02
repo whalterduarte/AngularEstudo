@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Animal } from '../../interface/Animals';
+import { ListService } from '../../services/list.service';
 
 @Component({
   selector: 'app-list-render',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule,],
   templateUrl: './list-render.component.html',
   styleUrl: './list-render.component.css'
 })
@@ -16,6 +17,11 @@ export class ListRenderComponent {
     {name: 'Drii', type: 'Cath',},
     {name: 'Manu', type: 'Human',}
   ]
+
+  constructor(private listService: ListService) {
+
+  }
+
   animalDetails = ''
 
   showName(animal: Animal) {

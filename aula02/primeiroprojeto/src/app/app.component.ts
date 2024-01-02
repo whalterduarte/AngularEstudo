@@ -5,11 +5,12 @@ import { FirstComponentComponent } from './components/first-component/first-comp
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
 import { DirectivesComponent } from './components/directives/directives.component';
 import { EmitterComponent } from './components/emitter/emitter.component';
+import { ListRenderComponent } from './components/list-render/list-render.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, FirstComponentComponent, ParentDataComponent, DirectivesComponent,EmitterComponent],
+  imports: [CommonModule, RouterOutlet, FirstComponentComponent, ParentDataComponent, DirectivesComponent,EmitterComponent, ListRenderComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

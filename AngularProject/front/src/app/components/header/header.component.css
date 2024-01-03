@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  border-bottom: 1px solid #777;
+}
+.brand img{
+  width: 100px;
+  margin-right: 0.6em;
+}
+
+.brand, .links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links li {
+  padding: 20px;
+}
+
+.links a {
+  padding: 1em 0.3em;
+}
+
+#add a {
+  color: #dec129;
+}
+#add a:hover{
+  background-color: #efefef;
+}

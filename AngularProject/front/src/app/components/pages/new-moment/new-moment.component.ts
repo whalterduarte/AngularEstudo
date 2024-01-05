@@ -10,4 +10,8 @@ import { MomentFormComponent } from '../../moment-form/moment-form.component';
 })
 export class NewMomentComponent {
   btnText: string = 'Compartilhar'
+
+  createdHandler(event: any){
+    console.log('Deu boa')
+  }
 }
